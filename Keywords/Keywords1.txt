@@ -1,0 +1,48 @@
+help
+echo 
+cd
+pushd
+STDIN, STDOUT, STDERR
+CreateFile, GetStdHandle
+help > help.txt
+help > nul
+dir
+
+echo y > \\?\Z:\nul
+type \\?\Z:\nul
+del \\?\Z:\nul
+
+echo y > \\?\Z:\1.txt:1
+echo y > 1.txt:1
+more < 1.txt:1
+dir /R
+
+STDOUT, STDERR:
+mkdir X 2> 1.txt
+mkdir X 1> 1.txt
+echo %ERRORLEVEL%
+
+@echo off
+help | find "disk"
+help | find "disk" | sort
+help | more
+
+cls
+
+echo.
+
+Environment Variables:
+
+echo %PATH%
+echo %CD%
+WINDIR
+USERPROFILE
+USERNAME
+PATH
+CreateProcess
+where calc
+
+.\echo
+
+set
+setx
