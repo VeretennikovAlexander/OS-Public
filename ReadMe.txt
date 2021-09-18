@@ -12,3 +12,5 @@ https://software.intel.com/content/www/us/en/develop/articles/intel-sdm.html
 
 См. также
 http://www.brokenthorn.com/Resources/OSDevIndex.html
+
+https://wiki.osdev.org/Main_Page
