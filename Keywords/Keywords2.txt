@@ -1,0 +1,18 @@
+set /p Var=
+rem
+setlocal
+endlocal
+goto
+
+&&
+||
+
+(echo off) && (for %f in (*) do echo %f) && (echo on)
+
+for /L %f in (1,1,10) do echo %f
+
+(echo off) & (for /L %f in (1,1,10) do echo %f) & (echo on)
+
+for /f "tokens=1 delims= " %i in ('help') do echo %i
+
+

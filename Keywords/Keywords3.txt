@@ -1,0 +1,118 @@
+#!/bin/bash
+
+cd ~
+chmod +x -- *.sh
+
+echo '*** Dir ***'
+
+ls -a
+ls -a -l
+
+echo '*** Dir* ***'
+
+echo *
+
+echo '*** Environment Variables ***'
+
+echo $PWD
+echo $USER
+echo $RANDOM
+
+echo '*** Variables ***'
+a=`pwd`
+b=5
+c=$(pwd)
+d="Pwd=$(pwd)"
+
+echo $a
+echo $b
+echo $c
+echo $d
+
+echo '*** Arithmetic ***'
+b=5
+let "c=$b+1"
+echo $c
+echo $(($b+1))
+
+echo '*** Quotes ***'
+a=`pwd`
+echo "$a"
+echo '$a'
+echo $a
+echo \$a
+
+echo '*** type & which ***'
+type cd
+type awk
+which cd
+which awk
+
+echo '*** Read from console ***'
+
+read
+echo $REPLY
+read q
+echo $q
+read -p "Enter something " ANS
+echo $ANS
+read -t 3 -p "Enter something: " ANS
+echo $ANS
+read a b c
+echo $a
+echo $b
+echo $c
+
+echo '*** Loop 1 2 3 4 ***'
+
+for i in 1 2 3 4; do
+echo $i
+done
+
+echo '*** Loop with seq ***'
+
+for i in $(seq 1 2 5); do
+echo $i
+done
+
+echo '*** Loop with {} ***'
+
+for i in {1..4..2}; do
+echo $i
+done
+
+echo '*** Loop with (( )) ***'
+
+for (( i=1; i<4; i++ )) do
+echo $i
+done
+
+echo '*** Example 1 ***'
+
+for i in *; do
+[ -f $i ] || continue 
+echo $i
+echo `stat --printf="%s" $i`
+done
+
+echo '*** Example 2 ***'
+
+IFS=:
+for i in $PATH; do
+	echo $i
+done
+
+echo '*** Example 3 ***'
+
+echo a b c | xargs echo Variables:
+
+echo '*** Read a file line by line ***'
+
+echo First > 1.txt
+echo Second >> 1.txt
+echo Third >> 1.txt
+
+cat 1.txt | while read line
+do
+	echo Line: $line
+done

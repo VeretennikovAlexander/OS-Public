@@ -1,0 +1,40 @@
+#!/bin/bash
+
+if test "$1" = "-h"; then
+	echo This is a script
+	exit
+fi
+
+mkdir Folder1
+echo Exit code: $?
+
+if (cd Folder1 2> /dev/null); then
+echo Folder1 exists
+else
+echo Folder1 does not exist
+fi
+
+if (cd Folder2 2> /dev/null); then
+echo Folder2 exists
+else
+echo Folder2 does not exist
+fi
+
+read a
+echo $a
+
+if (( a > 10 )); then
+	echo a \> 10
+else
+	echo a \< 10
+fi
+
+if [ $a -gt 10 ]; then
+	echo a \> 10
+else
+	echo a \< 10
+fi
+
+[ $a -gt 10 ] && echo a \> 10 || echo a \< 10
+
+#man test
