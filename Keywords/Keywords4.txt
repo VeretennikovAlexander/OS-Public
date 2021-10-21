@@ -37,4 +37,8 @@ fi
 
 [ $a -gt 10 ] && echo a \> 10 || echo a \< 10
 
+[ $a -gt 10 ] \
+  && echo a \> 10 \
+  || echo a \< 10 
+
 #man test

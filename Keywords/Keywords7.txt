@@ -1,0 +1,24 @@
+#!/bin/bash
+
+echo "# of arguments = $#"
+
+var1=${1:-/tmp}
+
+echo $var1
+
+echo ${1:?}
+
+echo OK
+
+for i in {1..10}; do
+	echo Arg$i = ${!i}
+done
+
+var2='jpg file.jpg'
+echo ${var2:4:5}
+echo ${var2#jpg}
+echo ${var2%jpg}
+echo ${var2/jpg/txt}
+echo ${var2//jpg/txt}
+
+

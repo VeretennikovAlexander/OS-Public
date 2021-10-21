@@ -1,0 +1,11 @@
+#!/bin/bash
+
+Var=1
+
+echo #!/bin/bash && echo 'echo Var' > ./Temp.sh
+cat ./Temp.sh
+source ./Temp.sh
+
+export Var
+
+source ./Temp.sh
