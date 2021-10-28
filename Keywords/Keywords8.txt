@@ -1,0 +1,32 @@
+#!/bin/bash
+
+PNAME=nohuptest.sh
+
+{
+	echo '#!/bin/bash' 
+	echo 'while true; do'
+	echo 'echo Working $BASHPID... `date`'
+	echo 'sleep 2'
+	echo 'done'
+} > $PNAME
+
+chmod +x ./$PNAME
+
+nohup ./$PNAME &
+nohup ./$PNAME &
+
+trap ctrl_c_handler INT
+
+function ctrl_c_handler() {
+	echo 
+	echo Shutdown $PNAME
+	ps -ax | grep ./$PNAME | grep -v grep | awk '{print $1}' | xargs kill -9
+	exit
+}
+
+while true; do
+
+ps -ax | grep ./$PNAME | grep -v grep | awk '{print $1}' | xargs echo Process id
+sleep 1
+
+done

@@ -1,0 +1,40 @@
+#!/bin/bash
+
+F=`pwd`/Test.sh
+echo $F
+
+sudo useradd user1
+sudo groupadd group1
+sudo usermod -a -G group1 user1
+groups user1
+
+sudo chattr -i "$F"
+sudo rm "$F"
+
+echo Create "$F"
+
+( echo '#!/bin/bash' && echo 'echo Test' ) > "$F"
+ls -l "$F"
+
+echo Set owner/group
+
+sudo chown :group1 "$F"
+ls -l "$F"
+
+sudo -u user1 -- "$F"
+
+echo Set permissions to group1
+
+sudo chmod g+x "$F"
+ls -l "$F"
+
+sudo -u user1 -- "$F"
+
+sudo chattr +i "$F"
+
+echo Delete
+sudo rm "$F"
+
+
+
+
