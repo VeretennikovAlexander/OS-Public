@@ -1,3 +1,7 @@
+См. также
+
+https://vk.com/osfirst
+
 Список литературы
 
 Таненбаум Э., Бос Х. Современные операционные системы (Tanenbaum A. S., Bos H. Modern Operating Systems).
