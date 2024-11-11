@@ -18,3 +18,9 @@ https://software.intel.com/content/www/us/en/develop/articles/intel-sdm.html
 http://www.brokenthorn.com/Resources/OSDevIndex.html
 
 https://wiki.osdev.org/Main_Page
+
+Прочее
+
+Уоррен мл. Генри С. Алгоритмические трюки для программистов
+(про манипуляции битами)
+
