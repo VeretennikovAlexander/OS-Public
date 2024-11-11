@@ -24,3 +24,5 @@ https://wiki.osdev.org/Main_Page
 Уоррен мл. Генри С. Алгоритмические трюки для программистов
 (про манипуляции битами)
 
+Henry S. Warren. Hacker's Delight, 2nd Edition
+
