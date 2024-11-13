@@ -2,22 +2,29 @@
 
 https://vk.com/osfirst
 
-Список литературы
+Список литературы (самые важные пункты в начале)
 
-Таненбаум Э., Бос Х. Современные операционные системы (Tanenbaum A. S., Bos H. Modern Operating Systems).
+1) Таненбаум Э., Бос Х. Современные операционные системы (Tanenbaum A. S., Bos H. Modern Operating Systems).
 
-Руссинович М., Соломон Д. Внутреннее устройство Microsoft Windows (Windows Internals).
+2) Руссинович М., Соломон Д. Внутреннее устройство Microsoft Windows (Windows Internals).
 
-Intel® 64 and IA-32 architectures software developer’s manual combined volumes 1, 2A, 2B, 2C, 2D, 3A, 3B, 3C, 3D, and 4.
-(В частности, Глава 4, Paging)
+3) Intel® 64 and IA-32 architectures software developer’s manual combined volumes 1, 2A, 2B, 2C, 2D, 3A, 3B, 3C, 3D, and 4.
+
+В частности, Глава 4, Paging.
+
 https://software.intel.com/content/www/us/en/develop/articles/intel-sdm.html
 
-Кнут Д., Искусство программирования (The Art Of Computer Programming) (гл. Динамическое выделение памяти).
+4) Кнут Д., Искусство программирования (The Art Of Computer Programming)
 
-См. также
+Глава "Динамическое выделение памяти".
+
+Дополнительные материалы
+
 http://www.brokenthorn.com/Resources/OSDevIndex.html
 
 https://wiki.osdev.org/Main_Page
+
+https://pdos.csail.mit.edu/6.1810/2023/schedule.html
 
 Прочее
 
@@ -25,4 +32,5 @@ https://wiki.osdev.org/Main_Page
 (про манипуляции битами)
 
 Henry S. Warren. Hacker's Delight, 2nd Edition
+
 
