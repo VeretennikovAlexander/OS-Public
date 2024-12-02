@@ -6,6 +6,8 @@
 #include <vector>
 #include <cstdint>
 
+using namespace std;
+
 #pragma pack(push,1)
 
 struct BPB
@@ -36,22 +38,22 @@ int main() {
   printf("Structure size %d\n", (int)sizeof(BPB));
 
   char diskName[] = "/dev/ram0";
-  std::string diskError = std::string() + diskName + ": ";
+  string diskError = string() + diskName + ": ";
 
-  std::ifstream disk(diskName, std::ios_base::binary);
+  ifstream disk(diskName, ios_base::binary);
 
   if(!disk)
-    throw(std::runtime_error(diskError + std::strerror(errno)));
+    throw(runtime_error(diskError + strerror(errno)));
 
   disk.seekg(0);
   if(!disk)
-    throw(std::runtime_error(diskError + std::strerror(errno)));
+    throw(runtime_error(diskError + strerror(errno)));
 
   char buffer[512];
   disk.read(&buffer[0], 512);
 
   if(!disk)
-    throw(std::runtime_error(diskError + std::strerror(errno)));
+    throw(runtime_error(diskError + strerror(errno)));
 
   BPB* bpb = (BPB*)buffer;
 
