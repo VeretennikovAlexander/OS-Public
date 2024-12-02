@@ -6,7 +6,7 @@
 #include <vector>
 #include <cstdint>
 
-#pragma pack(1)
+#pragma pack(push,1)
 
 struct BPB
 {
@@ -16,7 +16,7 @@ struct BPB
  uint8_t BPB_SecPerClus;
 };
 
-#pragma options align=reset
+#pragma pack(pop)
 
 /**
 See also
