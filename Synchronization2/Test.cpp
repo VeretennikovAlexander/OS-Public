@@ -4,6 +4,8 @@
 #include <thread>
 #include <mutex>
 
+#include <condition_variable>
+
 using namespace std;
 
 struct CPacket
@@ -20,21 +22,21 @@ struct CPacket
 
 CPacket produce()
 {
-    std::this_thread::sleep_for(1000ms);
+    this_thread::sleep_for(500ms);
     CPacket Packet;
     return Packet;
 }
 
 void consume(CPacket packet)
 {
-    std::this_thread::sleep_for(2000ms);
+    this_thread::sleep_for(500ms);
 }
 
 mutex criticalSection;
 condition_variable bufferNotEmpty;
 condition_variable bufferNotFull;
 list<CPacket> queue;
-size_t maxSize = 10;
+size_t maxSize = 100;
 
 void producer(size_t index)
 {
@@ -49,13 +51,13 @@ void producer(size_t index)
             unique_lock<mutex> lock(criticalSection);
 
             while (queue.size() >= maxSize)
-                bufferNotEmpty.wait(lock);
+                bufferNotFull.wait(lock);
 
             queue.push_back(packet);
 
             printf("Producer %d, queue size %d\n", (int)index, (int)queue.size());
 
-            bufferNotFull.notify_one();
+            bufferNotEmpty.notify_one();
         }
     }
    
@@ -72,12 +74,12 @@ void consumer(size_t index)
             unique_lock<mutex> lock(criticalSection);
 
             while (queue.size() == 0)
-                bufferNotFull.wait(lock);
+                bufferNotEmpty.wait(lock);
 
             packet = queue.front();
             queue.pop_front();
             
-            bufferNotEmpty.notify_one();
+            bufferNotFull.notify_one();
         }
 
         consume(packet);
@@ -86,7 +88,7 @@ void consumer(size_t index)
 
 int main()
 {
-    enum { producerCount = 2, consumerCount = 2 };
+    enum { producerCount = 10, consumerCount = 10 };
    
     thread* producers[producerCount];
     thread* consumers[consumerCount];
