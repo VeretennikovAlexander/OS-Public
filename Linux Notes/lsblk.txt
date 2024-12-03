@@ -1,0 +1,4 @@
+Данные о дисках и файловых системах:
+
+lsblk -o NAME,FSTYPE,SIZE,MOUNTPOINT,LABEL
+

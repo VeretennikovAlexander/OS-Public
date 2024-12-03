@@ -1,0 +1,3 @@
+Установка IDE Geany
+
+apt-get install geany
