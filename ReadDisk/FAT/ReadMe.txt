@@ -63,3 +63,9 @@ https://vk.com/wall-227225018_64
 https://vk.com/wall-227225018_73
 
 https://codeby.net/threads/asm-fat32-opisanie-fajlovoj-sistemy.79019/
+
+Примечание.
+
+Для работы с C++ можно установить IDE, например Geany:
+
+apt-get install geany
