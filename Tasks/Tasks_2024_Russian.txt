@@ -1,6 +1,6 @@
 ﻿Задачи для практики. Операционные системы, для первокурсников, 2024 г.
 
-Cmd
+* Cmd
 
 Cmd1) Требуется реализовать на Cmd программу Which.
 
@@ -12,7 +12,7 @@ Cmd1) Требуется реализовать на Cmd программу Whic
 Файл является исполняемым, если его расширение включено
 в составе переменной окружения PATHEXT.
 
-Linux Bash
+* Linux Bash
 
 Bash1) Вывести отчет MD5/SHA1 в заданной папке.
 
@@ -60,7 +60,7 @@ FFFFFFF~.FF~.
 Тогда требуется назначить файлу другое имя, например
 FFFFFF~1.FF~.
 
-Задача производителя и потребителя
+* Задача производителя и потребителя (примитивы синхронизации)
 
 Задача Производителя-Потребителя на C++. Семафоры и мьютекс.
 https://github.com/VeretennikovAlexander/OS-Public/tree/master/Producer-Consumer/Producer-Consumer_Mutex_Semaphore_Std
@@ -68,7 +68,7 @@ https://github.com/VeretennikovAlexander/OS-Public/tree/master/Producer-Consumer
 Задача Производителя-Потребителя на C++ для практики. С использованием условных переменных
 https://github.com/VeretennikovAlexander/OS-Public/tree/master/Producer-Consumer/Producer-Consumer_Mutex_Condition_variable_Std
 
-Файловые системы
+* Файловые системы
 
 FS1) Задача (Linux):
 1) Создать диск с файловой системой FAT.
