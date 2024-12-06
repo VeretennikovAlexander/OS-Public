@@ -1,6 +1,6 @@
 Geany -- компактная IDE, подходящая для решения учебных задач на C++.
 
-Установка:
+Установка для Linux:
 
 apt-get install geany
 
@@ -24,3 +24,6 @@ g++ -std=c++2b
 
 См. также
 https://en.cppreference.com/w/cpp/thread/counting_semaphore
+
+#Geany #CPP #Semaphore #Linux
+
