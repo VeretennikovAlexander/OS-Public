@@ -14,7 +14,7 @@ g++ -std=c++2b
 
 в Geany.
 
-Требуется для работы с counting_semaphore (C++20).
+Требуется для работы с counting_semaphore (C++20, в принципе, достаточно опции -std=c++20).
 
 1) Запустить окно Set Build Commands.
 
