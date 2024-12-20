@@ -6,7 +6,9 @@ https://vk.com/osfirst
 
 1) Таненбаум Э., Бос Х. Современные операционные системы (Tanenbaum A. S., Bos H. Modern Operating Systems).
 
-2) Руссинович М., Соломон Д. Внутреннее устройство Microsoft Windows (Windows Internals).
+2) Руссинович М., Соломон Д. Внутреннее устройство Microsoft Windows (
+e.g. Windows Internals: System architecture, processes, threads, memory management, and more, Part 1 (Developer Reference) 7th Edition
+by Pavel Yosifovich, Alex Ionescu, Mark E. Russinovich, David A. Solomon).
 
 3) Intel® 64 and IA-32 architectures software developer’s manual combined volumes 1, 2A, 2B, 2C, 2D, 3A, 3B, 3C, 3D, and 4.
 
