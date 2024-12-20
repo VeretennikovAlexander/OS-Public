@@ -43,3 +43,8 @@
 by Pavel Yosifovich, Alex Ionescu, Mark E. Russinovich, David A. Solomon).
 Глава про потоки (Threads).
 
+По вопросу 7 см.
+Кнут Д., Искусство программирования (The Art Of Computer Programming)
+Глава "Динамическое выделение памяти".
+
+
