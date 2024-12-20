@@ -41,7 +41,10 @@
 По вопросу 29, см. 2) Руссинович М., Соломон Д. Внутреннее устройство Microsoft Windows 
 (e.g. Windows Internals: System architecture, processes, threads, memory management, and more, Part 1 (Developer Reference) 7th Edition 
 by Pavel Yosifovich, Alex Ionescu, Mark E. Russinovich, David A. Solomon).
-Глава про потоки (Threads).
+
+Глава про потоки (Chapter 4: Threads).
+
+https://learn.microsoft.com/en-us/sysinternals/resources/windows-internals
 
 По вопросу 7 см.
 Кнут Д., Искусство программирования (The Art Of Computer Programming)

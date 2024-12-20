@@ -10,6 +10,8 @@ https://vk.com/osfirst
 e.g. Windows Internals: System architecture, processes, threads, memory management, and more, Part 1 (Developer Reference) 7th Edition
 by Pavel Yosifovich, Alex Ionescu, Mark E. Russinovich, David A. Solomon).
 
+https://learn.microsoft.com/en-us/sysinternals/resources/windows-internals
+
 3) Intel® 64 and IA-32 architectures software developer’s manual combined volumes 1, 2A, 2B, 2C, 2D, 3A, 3B, 3C, 3D, and 4.
 
 В частности, Глава 4, Paging.
