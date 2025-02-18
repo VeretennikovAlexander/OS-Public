@@ -37,4 +37,14 @@ https://pdos.csail.mit.edu/6.1810/2023/schedule.html
 
 Henry S. Warren. Hacker's Delight, 2nd Edition
 
+См. также
+
+https://vk.com/wall-227225018_4
+
+https://vk.com/wall-227225018_10
+
+https://vk.com/wall-227225018_64
+
+https://vk.com/wall-227225018_119
+
 
