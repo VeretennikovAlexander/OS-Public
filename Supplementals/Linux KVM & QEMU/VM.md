@@ -52,17 +52,17 @@ https://nmanzi.com/blog/windows-guest-on-linux-mint/
 
 Примеры интерфейса:
 
-![Пример 1](Create a new virtual machine 1.png) 
+![Пример 1](https://github.com/VeretennikovAlexander/OS-Public/blob/master/Supplementals/Linux%20KVM%20%26%20QEMU/Create%20a%20new%20virtual%20machine%201.png) 
 
-![Пример 1](Create a new virtual machine 2.png) 
+![Пример 2](https://github.com/VeretennikovAlexander/OS-Public/blob/master/Supplementals/Linux%20KVM%20%26%20QEMU/Create%20a%20new%20virtual%20machine%202.png) 
 
-![Пример 1](Create a new virtual machine 3.png) 
+![Пример 3](https://github.com/VeretennikovAlexander/OS-Public/blob/master/Supplementals/Linux%20KVM%20%26%20QEMU/Create%20a%20new%20virtual%20machine%203.png) 
 
-![Пример 1](Create a new virtual machine 4.png) 
-  
-![Пример 1](Create a new virtual machine 5.png) 
+![Пример 4](https://github.com/VeretennikovAlexander/OS-Public/blob/master/Supplementals/Linux%20KVM%20%26%20QEMU/Create%20a%20new%20virtual%20machine%204.png) 
+ 
+![Пример 5](https://github.com/VeretennikovAlexander/OS-Public/blob/master/Supplementals/Linux%20KVM%20%26%20QEMU/Create%20a%20new%20virtual%20machine%205.png) 
 
-![Пример 1](Create a new virtual machine 6.png) 
+![Пример 6](https://github.com/VeretennikovAlexander/OS-Public/blob/master/Supplementals/Linux%20KVM%20%26%20QEMU/Create%20a%20new%20virtual%20machine%206.png) 
 
 3) Установка антивируса и базового ПО (типа браузера Chrome), а также
 последних апдейтов Windows.
