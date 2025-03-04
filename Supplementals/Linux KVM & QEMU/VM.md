@@ -10,7 +10,7 @@
 
 Писалось не в процесса, а по итогам.
 
-Вывод: разворачивание и настройка VM под Linux делается быстро (1-2 часа) стандартными средствами. Возможно, с VirtualBox было бы еще проще.
+Вывод: разворачивание и настройка VM под Linux делается быстро (1-2 часа) стандартными средствами. Возможно, с VirtualBox было бы еще проще. Почему-то достаточно полной инструкции не нашлось.
 
 1) Установка ПО виртуализации KVM/QEMU.
 
@@ -34,8 +34,6 @@ sudo apt install -y qemu-guest-agent
 https://nmanzi.com/blog/windows-guest-on-linux-mint/
 
 https://www.nic.ru/help/kak-ustanovit6-i-nastroit6-kvmqemu_11630.html
-
-https://docs.openshift.com/container-platform/4.13/virt/virtual_machines/virt-installing-qemu-guest-agent.html
 
 2) Создание VM и установка ОС.
 
