@@ -102,6 +102,8 @@ sudo apt install virtiofsd
 В соответствии с инструкциями, добавляем устройство вида FileSystem для VM,
 указываем при настройках целевую папку в файловой системе Linux.
 
+![Пример 7](https://github.com/VeretennikovAlexander/OS-Public/blob/master/Supplementals/Linux%20KVM%20%26%20QEMU/FileSystem%20Share.png) 
+
 Включаем опцию Enabled Shared Memory в Memory, в
 соответствии с https://virtio-fs.gitlab.io/howto-windows.html.
 
