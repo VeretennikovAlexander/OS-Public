@@ -2,6 +2,8 @@
 
 https://vk.com/osfirst
 
+https://github.com/VeretennikovAlexander/AboutMe/blob/master/README.md
+
 Список литературы (самые важные пункты в начале)
 
 1) Таненбаум Э., Бос Х. Современные операционные системы (Tanenbaum A. S., Bos H. Modern Operating Systems).
