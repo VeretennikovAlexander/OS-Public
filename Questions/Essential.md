@@ -70,6 +70,8 @@ ACL
 
 Stack Guard Page
 
+RDP
+
 Мьютекс
 
 Семафор
