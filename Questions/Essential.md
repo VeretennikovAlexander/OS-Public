@@ -72,6 +72,10 @@ Stack Guard Page
 
 RDP
 
+NRU
+
+NFU
+
 Мьютекс
 
 Семафор
